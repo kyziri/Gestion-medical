@@ -1,0 +1,78 @@
+.apropos-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 60px 20px;
+}
+
+.apropos-image {
+  width: 300px;
+  height: 370px;
+  background-image: url("../../assets/about-img.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+
+.apropos-text {
+  width: 685px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.apropos-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #023E8A;
+}
+
+.apropos-subtitle {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 32px;
+  color: #444;
+}
+
+.apropos-description {
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 32px;
+  color: #444;
+}
+
+.services {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #777;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  background: #B02B2B;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.btn-cont {
+  width: 204px;
+  height: 43px;
+  background-color: #00B4D8;
+  color: white;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}

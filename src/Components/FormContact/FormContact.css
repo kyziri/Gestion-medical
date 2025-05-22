@@ -1,0 +1,78 @@
+.formcontact-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .formcontact-card {
+    width: 90%;
+    max-width: 900px;
+    background-color: #023E8A;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  
+  .formcontact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .input-pair {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+  
+  .input-pair input {
+    flex: 1;
+    min-width: 250px;
+    height: 50px;
+    background-color: #CAC6C6;
+    border-radius: 10px;
+    border: none;
+    padding: 0 20px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    outline: none;
+  }
+  
+  .message-area {
+    width: 100%;
+    height: 100px;
+    background-color: #CAC6C6;
+    border-radius: 20px;
+    border: none;
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    resize: none;
+    outline: none;
+  }
+  
+  .formcontact-button-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .formcontact-button {
+    width: 150px;
+    height: 50px;
+    background-color: #00B4D8;
+    border: none;
+    border-radius: 10px;
+    font-size:20px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .formcontact-button:hover {
+    background-color: #009ec5;
+  }
+  

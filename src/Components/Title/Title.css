@@ -1,0 +1,26 @@
+.title
+{
+    text-align: center;
+    margin: 50px 0 30px;
+    color: #444;
+    font-size: 16px;
+}
+
+.title h1
+{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.title p
+{
+    margin-top: 10px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.bleu
+{
+    color: #023E8A;
+}
+

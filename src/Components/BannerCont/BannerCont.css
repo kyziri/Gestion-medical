@@ -1,0 +1,31 @@
+.contact-banner {
+    width: 100%;
+    background-color: #D9D9D9;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-banner-content {
+    text-align: center;
+  }
+  
+  .contact-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #023E8A;
+    margin: 0;
+  }
+  
+  .contact-breadcrumb {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+    margin-top: 10px;
+  }
+  

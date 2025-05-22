@@ -1,0 +1,116 @@
+/* --- CONTENEUR PRINCIPAL --- */
+.rendezvous-container {
+  width: 100%;
+  background-color: #d9d9d9;
+  padding: 60px 0;
+}
+
+.rendezvous-bg {
+  width: 1142px;
+  margin: 0 auto;
+  background-color: #023e8a;
+  border-radius: 0 0 100px 0;
+  padding: 40px;
+  color: #fff;
+}
+
+.rendezvous-card {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+/* --- GAUCHE --- */
+.rendezvous-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rendezvous-image {
+  width: 100%;
+  max-width: 410px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* --- DROITE --- */
+.rendezvous-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.rendezvous-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* --- CHAMPS DE FORMULAIRE (le tien ci-dessous) --- */
+
+/* Style commun pour tous les champs */
+.input-group input,
+.single-input,
+.autocomplete-input input,
+.date-input {
+  width: 100%;
+  height: 50px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  border: none;
+  padding: 0 15px;
+  font-size: 15px;
+  color: #444;
+  font-family: 'Poppins', sans-serif;
+  outline: none; /* Enlève le contour noir au clic */
+  box-shadow: none; /* Supprime aussi le contour via box-shadow si présent */
+}
+
+/* Regroupe les inputs sur une ligne, chaque élément prend la moitié */
+.input-group {
+  display: flex;
+  gap: 15px;
+}
+
+.input-group > * {
+  flex: 1;
+}
+
+/* Date picker wrapper */
+.date-picker-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.date-icon {
+  position: absolute;
+  top: 14px;
+  left: 10px;
+  color: #444;
+  pointer-events: none;
+}
+
+/* Pour espacer l’icône dans le champ */
+.date-input {
+  padding-left: 35px !important;
+}
+
+/* --- BOUTON --- */
+.rendezvous-button {
+  width: 244px;
+  height: 50px;
+  background-color: #00b4d8;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  align-self: center;
+}
